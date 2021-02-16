@@ -1,0 +1,19 @@
+{
+  "name": "electron-uws-test",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/seesemichaelj/electorn-uws-test",
+  "author": "Mike Seese",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "10.3.2"
+  },
+  "dependencies": {
+    "@seesemichaelj/uwebsockets.js": "^18.15.3",
+    "ws": "^7.4.3"
+  }
+}
